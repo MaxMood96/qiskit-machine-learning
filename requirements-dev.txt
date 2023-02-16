@@ -20,3 +20,4 @@ mypy-extensions>=0.4.3
 nbsphinx
 qiskit_sphinx_theme
 networkx>=2.2,<2.6
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
